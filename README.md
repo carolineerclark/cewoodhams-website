@@ -1,2 +1,3 @@
-# cewoodhams-website-_assets-test
-Website files
+# cewoodhams-website
+
+Place to store all my website files

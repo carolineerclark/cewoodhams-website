@@ -1,0 +1,157 @@
+/*This colour scheme was sourced from http://www.colourlovers.com/ - credit to mütyűr műhely*/
+/*The inspiration for the font came from https://www.typewolf.com/blog/most-popular-fonts-of-the-year */
+
+body {
+  box-sizing: border-box;
+  font-size: 100%;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+/*Need to sort out the margins to be responsive!*/
+
+div {
+  clear: both;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+div.title {
+  display: inline;
+  width: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+div.portfolio-container {
+  margin-left: 5em;
+  margin-right: 5em;
+  align-items:
+}
+
+ul.portfolio-boxes {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li.portfolio-box-1 {
+  border-style: solid;
+  width: 25em;
+  padding: 0;
+  float: left;
+}
+
+li.portfolio-box-2 {
+  border-style: solid;
+  width: 25em;
+  padding: 0;
+  float: left;
+}
+
+li.portfolio-box-3 {
+  border-style: solid;
+  width: 25em;
+  padding: 0;
+  float: left;
+}
+
+nav {
+  text-align: right;
+  float: right;
+  font-size: 1.5em;
+  font-family: "Avenir", sans-serif;
+  color: #8702d1;
+}
+
+
+li {
+  display: inline;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+h1 {
+  font-size: 5em;
+  color: #d10280;
+  font-family: "Avenir", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+  float: left;
+}
+
+div.space-line {
+  background-color: #999999;
+  height: 2px;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 2em;
+  font-family: "Avenir", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2.a {
+  color: #ff9900;
+}
+
+h2.b {
+  color: #129cb7;
+}
+
+h2.c {
+  color: #8702d1;
+}
+
+h2.d {
+  color: #d10280;
+}
+
+p {
+  color: black;
+  font-family: "Avenir", sans-serif;
+  font-size: 19px;
+  text-align: justify;
+}
+
+p.copyright {
+  color: #d10280;
+}
+
+
+/*Link styling is taken from W3schools' section on CSS*/
+/* unvisited link */
+a:link {
+    color: #129cb7;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #8702d1;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #d10280;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #8702d1;
+    text-decoration: underline;
+  }

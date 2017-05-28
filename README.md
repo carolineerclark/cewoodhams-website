@@ -2,8 +2,8 @@
 
 |contents|
 |--------|
-|[First test](/readme#test_heading)|
-|[Test](/readme#test)|
+|[First test](cewoodhams-website/blob/master/README.md#test_heading)|
+|[Test](cewoodhams-website/blob/master/README.md#test)|
 
 
 Place to store all my website files

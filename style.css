@@ -79,6 +79,7 @@ p {
   font-family: "Avenir", sans-serif;
   font-size: 19px;
   text-align: justify;
+  max-width: 100%;
 }
 
 h2 {
@@ -123,7 +124,7 @@ img.skill-box {
 
 p.copyright {
   color: #d10280;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 /* unvisited link */
@@ -144,8 +145,46 @@ a:hover {
     text-decoration: none;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: black;
+  font-family: "Avenir", sans-serif;
+  font-size: 19px;
+  text-align: justify;
+  table-layout: fixed;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  display: table;
+}
 
-/* This is to make it mobile responsive */
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+  max-width: 600px;
+  min-width: 120px;
+  text-align: center;
+  padding: 10px;
+  background-color: #129cb7;
+  color: white;
+}
+td, th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+  white-space: normal;
+  max-width: 600px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: rgb(197, 240, 250);
+}
+
 @media only screen and (max-width: 700px) {
   body {
     margin-left: 2em;
@@ -163,7 +202,7 @@ a:hover {
    }
    h2 {
      text-align: center;
-     font-size: 1.5em;
+     font-size: 1.25em;
    }
    img.portfolio-box {
      max-width: 250px;;
@@ -179,10 +218,24 @@ a:hover {
     height: inherit;
     }
 
+    img.contact {
+      height:30px;
+      width:30px;
+    }
+
    li.contact {
      display: inline;
      padding-left: 0.5em;
      padding-right: 0.5em;
+   }
+
+   p {
+     font-size: 0.75em;
+     text-align: center;
+   }
+
+   table {
+     font-size: 0.75em;
    }
 }
 

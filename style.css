@@ -13,14 +13,12 @@ div {
   padding: 0;
 }
 
-div.title {
+.title {
   display: inline;
-  width: 50%;
-  margin: 0;
   padding: 0;
 }
 
-div.space-line {
+.space-line {
   background-color: #999999;
   height: 2px;
   margin-top: 0.5em;
@@ -59,7 +57,6 @@ li {
   display: inline;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  margin: 0;
   font-family: "Avenir", sans-serif;
   text-align: center;
   max-width: 100%;
@@ -95,19 +92,19 @@ h2 {
   margin-bottom: 0;
 }
 
-h2.a {
+.a {
   color: #ff9900;
 }
 
-h2.b {
+.b {
   color: #129cb7;
 }
 
-h2.c {
+.c {
   color: #8702d1;
 }
 
-h2.d {
+.d {
   color: #d10280;
 }
 
@@ -119,7 +116,7 @@ p {
   max-width: 100%;
 }
 
-p.copyright {
+.copyright {
   color: #d10280;
   font-size: 12px;
 }
@@ -140,9 +137,9 @@ img.skill-box {
   width: 50em;
 }
 
-img.tick {
-  height: 1em;
-  width: 1em;
+.tick {
+  height: 50px;
+  width: 50px;
 }
 
 /* unvisited link */
@@ -187,7 +184,6 @@ th {
   text-align: center;
   padding: 10px;
   background-color: #129cb7;
-  color: white;
 }
 
 td, th {
@@ -196,7 +192,6 @@ td, th {
   text-align: left;
   white-space: normal;
   max-width: 600px;
-  padding: 10px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -209,6 +204,7 @@ tr:hover {
     margin-left: 2em;
     margin-right: 2em;
   }
+  
    h1 {
       font-size: 2em;
    }
@@ -219,11 +215,13 @@ tr:hover {
      margin-left: 10%;
      margin-right: 10%
    }
+   
    h2 {
      text-align: center;
      font-size: 1.25em;
    }
-   img.portfolio-box {
+   
+   .portfolio-box {
      max-width: 250px;;
      max-height: 150px;
    }

@@ -13,22 +13,25 @@ div {
   padding: 0;
 }
 
-h1 {
-  font-size: 5em;
-  color: #d10280;
-  font-family: "Avenir", sans-serif;
-  font-weight: bold;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-}
-
 div.title {
   display: inline;
   width: 50%;
   margin: 0;
   padding: 0;
+}
+
+div.space-line {
+  background-color: #999999;
+  height: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+div.summary {
+  max-width: 100%;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%
 }
 
 nav {
@@ -48,11 +51,24 @@ ul {
   text-align: center;
 }
 
+ul.challenge {
+  text-align: left;
+}
+
 li {
   display: inline;
   padding-left: 0.5em;
   padding-right: 0.5em;
   margin: 0;
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+  max-width: 100%;
+}
+
+li.challenge {
+  font-size: 19px;
+  text-align: left;
+  display: block;
 }
 
 li.contact {
@@ -60,25 +76,14 @@ li.contact {
   padding-right: 1em;
 }
 
-div.space-line {
-  background-color: #999999;
-  height: 2px;
-  margin-top: 0.5em;
-  margin-bottom: 2em;
-}
-
-div.summary {
-  max-width: 100%;
-  text-align: justify;
-  margin-left: 20%;
-  margin-right: 20%
-}
-
-p {
-  color: black;
+h1 {
+  font-size: 5em;
+  color: #d10280;
   font-family: "Avenir", sans-serif;
-  font-size: 19px;
-  text-align: justify;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
   max-width: 100%;
 }
 
@@ -106,6 +111,19 @@ h2.d {
   color: #d10280;
 }
 
+p {
+  color: black;
+  font-family: "Avenir", sans-serif;
+  font-size: 19px;
+  text-align: justify;
+  max-width: 100%;
+}
+
+p.copyright {
+  color: #d10280;
+  font-size: 12px;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -122,9 +140,9 @@ img.skill-box {
   width: 50em;
 }
 
-p.copyright {
-  color: #d10280;
-  font-size: 12px;
+img.tick {
+  height: 1em;
+  width: 1em;
 }
 
 /* unvisited link */
@@ -171,6 +189,7 @@ th {
   background-color: #129cb7;
   color: white;
 }
+
 td, th {
   padding: 6px;
   border: 1px solid #ccc;
